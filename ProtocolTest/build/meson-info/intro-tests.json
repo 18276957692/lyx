@@ -1,0 +1,1 @@
+[{"cmd": ["F:/ProtocolTest/build/test/test_all.exe"], "env": {}, "name": "test_all", "workdir": null, "timeout": 30, "suite": ["ProtocolTest"], "is_parallel": true, "priority": 0, "protocol": "exitcode"}]

@@ -1,0 +1,80 @@
+[
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "valac \"-C\" \"--debug\" \"--debug\" \"--vapidir\" \"F:/ProtocolTest/vapi\" \"--pkg\" \"gee-0.8\" \"--pkg\" \"gtk+-3.0\" \"--pkg\" \"gobject-2.0\" \"--pkg\" \"glib-2.0\" \"--color=always\" \"--directory\" \"src/25a6634@@test1@exe\" \"--basedir\" \"../src\" ../src/data_link/main.vala ../src/data_link/iic.vala ../src/data_link/uart.vala ../src/data_link/ncsi.vala ../src/data_link/jtag.vala ../src/data_link/generator.vala ../src/physical/level.vala ../src/io/mock.vala ../src/io/physical.vala ../src/interface/interface.vala",
+    "file": "../src/data_link/main.vala",
+    "output": "src/25a6634@@test1@exe/data_link/main.c"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_data_link_main.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_data_link_main.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_data_link_main.c.obj -c src/25a6634@@test1@exe/data_link/main.c",
+    "file": "src/25a6634@@test1@exe/data_link/main.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_data_link_main.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_data_link_iic.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_data_link_iic.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_data_link_iic.c.obj -c src/25a6634@@test1@exe/data_link/iic.c",
+    "file": "src/25a6634@@test1@exe/data_link/iic.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_data_link_iic.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_data_link_uart.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_data_link_uart.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_data_link_uart.c.obj -c src/25a6634@@test1@exe/data_link/uart.c",
+    "file": "src/25a6634@@test1@exe/data_link/uart.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_data_link_uart.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_data_link_ncsi.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_data_link_ncsi.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_data_link_ncsi.c.obj -c src/25a6634@@test1@exe/data_link/ncsi.c",
+    "file": "src/25a6634@@test1@exe/data_link/ncsi.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_data_link_ncsi.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_data_link_jtag.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_data_link_jtag.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_data_link_jtag.c.obj -c src/25a6634@@test1@exe/data_link/jtag.c",
+    "file": "src/25a6634@@test1@exe/data_link/jtag.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_data_link_jtag.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_data_link_generator.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_data_link_generator.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_data_link_generator.c.obj -c src/25a6634@@test1@exe/data_link/generator.c",
+    "file": "src/25a6634@@test1@exe/data_link/generator.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_data_link_generator.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_physical_level.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_physical_level.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_physical_level.c.obj -c src/25a6634@@test1@exe/physical/level.c",
+    "file": "src/25a6634@@test1@exe/physical/level.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_physical_level.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_io_mock.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_io_mock.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_io_mock.c.obj -c src/25a6634@@test1@exe/io/mock.c",
+    "file": "src/25a6634@@test1@exe/io/mock.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_io_mock.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_io_physical.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_io_physical.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_io_physical.c.obj -c src/25a6634@@test1@exe/io/physical.c",
+    "file": "src/25a6634@@test1@exe/io/physical.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_io_physical.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Isrc/25a6634@@test1@exe\" \"-Isrc\" \"-I../src\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" src/25a6634@@test1@exe/meson-generated_interface_interface.c.obj \"-MF\" \"src/25a6634@@test1@exe/meson-generated_interface_interface.c.obj.d\" -o src/25a6634@@test1@exe/meson-generated_interface_interface.c.obj -c src/25a6634@@test1@exe/interface/interface.c",
+    "file": "src/25a6634@@test1@exe/interface/interface.c",
+    "output": "src/25a6634@@test1@exe/meson-generated_interface_interface.c.obj"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "valac \"-C\" \"--debug\" \"--debug\" \"--vapidir\" \"F:/ProtocolTest/vapi\" \"--pkg\" \"gee-0.8\" \"--pkg\" \"gtk+-3.0\" \"--pkg\" \"gobject-2.0\" \"--pkg\" \"glib-2.0\" \"--color=always\" \"--directory\" \"test/9f86d08@@test_all@exe\" \"--basedir\" \"../test\" ../test/test.vala",
+    "file": "../test/test.vala",
+    "output": "test/9f86d08@@test_all@exe/test.c"
+  },
+  {
+    "directory": "F:\\ProtocolTest\\build",
+    "command": "cc \"-Itest/9f86d08@@test_all@exe\" \"-Itest\" \"-I../test\" \"-IE:/msys2/mingw64/include/glib-2.0\" \"-IE:/msys2/mingw64/lib/glib-2.0/include\" \"-IE:/msys2/mingw64/include\" \"-IE:/msys2/mingw64/lib/libffi-3.2.1/include\" \"-IE:/msys2/mingw64/include/gtk-3.0\" \"-IE:/msys2/mingw64/include/pango-1.0\" \"-IE:/msys2/mingw64/include/fribidi\" \"-IE:/msys2/mingw64/include/atk-1.0\" \"-IE:/msys2/mingw64/include/cairo\" \"-IE:/msys2/mingw64/include/pixman-1\" \"-IE:/msys2/mingw64/include/freetype2\" \"-IE:/msys2/mingw64/include/harfbuzz\" \"-IE:/msys2/mingw64/include/libpng16\" \"-IE:/msys2/mingw64/include/gdk-pixbuf-2.0\" \"-IE:/msys2/mingw64/include/gee-0.8\" \"-fdiagnostics-color=always\" \"-pipe\" \"-w\" \"-g\" \"-mms-bitfields\" \"-pthread\" \"-mms-bitfields\" \"-mms-bitfields\" \"-mms-bitfields\" \"-MD\" \"-MQ\" test/9f86d08@@test_all@exe/meson-generated_test.c.obj \"-MF\" \"test/9f86d08@@test_all@exe/meson-generated_test.c.obj.d\" -o test/9f86d08@@test_all@exe/meson-generated_test.c.obj -c test/9f86d08@@test_all@exe/test.c",
+    "file": "test/9f86d08@@test_all@exe/test.c",
+    "output": "test/9f86d08@@test_all@exe/meson-generated_test.c.obj"
+  }
+]
